@@ -11,16 +11,18 @@
     color: black;
     padding: 0px;
     margin: 0px 0px 10px 0px;
-    background-image: url(../images/menu.jpeg);
+    background-image:url(../images/k.gif); 
     background-repeat: no-repeat;
 }
 
 #bottom {
-    position: relative;
+
+    position:relative ;
     background-color: #ee7;
-    padding: 5px;
+    padding: 15px;
     margin: 10px 0px 0px 0px;
     text-align: center;
+    
 }
 
 #left {
