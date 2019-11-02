@@ -35,7 +35,8 @@
                        <h:graphicImage name="login.gif" library="images"
                                     style="float: right"/>  
                     </div>
-                    <h:panelGrid columns="2" border="1">
+                    <div id="login">
+                         <h:panelGrid columns="2" >
                         <h:outputLabel>User Name</h:outputLabel>
                         <h:inputText id="un"/>
                         <h:outputLabel>Password</h:outputLabel>
@@ -43,6 +44,8 @@
                         <h:commandButton value="Login" action="#"/>
                         <h:commandButton value="Reset" action="#"/>
                     </h:panelGrid>
+                    </div>
+                   
                    
                 </h:form>
 

@@ -17,6 +17,7 @@ h1 {
 }
 
 #blank{
+    margin-top: 0px;
     height: 140px;
 }
 #menu{
@@ -27,6 +28,10 @@ h1 {
 }
 #ff{
     background-color: paleturquoise;
+}
+#login{
+    margin-top: 0px;
+    
 }
 a:link, a:visited {
   color: #045491;
