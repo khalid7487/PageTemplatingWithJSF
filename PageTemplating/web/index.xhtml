@@ -9,6 +9,11 @@
         </ui:define>
         <div id="container">
             <ui:define name="top">
+                
+                
+                <div id="image">
+                    <h:graphicImage name="k.gif" library="images" style="float: right"></h:graphicImage>
+                </div>
                 <div id="blank"></div>
                 <div id="menu">
                     <ui:include src="menu.xhtml"/>
@@ -23,9 +28,22 @@
                 <p>Text to be included to right content</p>
             </ui:define>
             <ui:define name="content">
-                <h:form>
+                <h:form id="ff">
                     <h2>Content here.</h2> <p>column long long column very long fill fill fill long text text column text silly very make long very fill silly make make long make text fill very long text column silly silly very column long very column filler fill long make filler long silly very long silly silly silly long filler make column filler make silly long long fill very.</p>
                     <p>very make make fill silly long long filler column long make silly silly column filler fill fill very filler text fill filler column make fill make text very make make very fill fill long make very filler column very long very filler silly very make filler silly make make column column </p>
+                    <div id="blank">
+                       <h:graphicImage name="login.gif" library="images"
+                                    style="float: right"/>  
+                    </div>
+                    <h:panelGrid columns="2" border="1">
+                        <h:outputLabel>User Name</h:outputLabel>
+                        <h:inputText id="un"/>
+                        <h:outputLabel>Password</h:outputLabel>
+                        <h:inputText id="pp"/>
+                        <h:commandButton value="Login" action="#"/>
+                        <h:commandButton value="Reset" action="#"/>
+                    </h:panelGrid>
+                   
                 </h:form>
 
             </ui:define>

@@ -10,7 +10,7 @@
     position: relative;
     color: black;
     padding: 0px;
-    margin: 0px 0px 10px 0px;
+    margin: 0px 0px 0px 0px;
     background-image:url(../images/k.gif); 
     background-repeat: no-repeat;
 }
@@ -72,6 +72,9 @@
   color: black;
   font-weight : bold;
   text-decoration : underline;
+}
+#image{
+    width: 950px;
 }
 
 
